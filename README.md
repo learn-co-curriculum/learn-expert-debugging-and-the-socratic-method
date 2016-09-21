@@ -50,5 +50,3 @@ Now that you know what the student’s bug is, help them figure out what the pro
     - For example, instead of saying “Your method requires two arguments,” say instead “Don’t you think the method should require two arguments?” This way, the student will have to think for, even just a few seconds about their problem.
 
 Using the Socratic Method will better teach students how to debug because it shows them what questions we ask ourselves when we solve the lab. In turn, this teaches students better debugging techniques so that they’ll have a better shot debugging their code on their own in the future.
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/learn-expert-debugging-and-the-socratic-method'>Learn Expert Debugging and the Socratic Method</a> on Learn.co and start learning to code for free.</p>
