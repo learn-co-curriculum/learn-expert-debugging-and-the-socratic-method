@@ -1,6 +1,6 @@
 # Debugging and the Socratic Method
 
-![Socrates](http://www.dailystormer.com/wp-content/uploads/2014/01/socrates-statue2.jpg)
+![Socrates](https://s3.amazonaws.com/learn-experts/socrates-atenas-9352.jpg)
 
 > “I cannot teach anybody anything. I can only make them think”
 > ― Socrates
@@ -11,9 +11,11 @@ When you're working with student questions related to test errors, it's importan
 
 * Always ask students to show you the error message first. Read through it and be able to identify where and when the code is not working.
   - If the student doesn’t already understand, be sure to mention that error messages are great because they identify for you the exact reasons and location of why your program isn't working the way that you want it to. Error messages get you one step closer to solving the problem in front of you and they're specific.
+  - Make sure the student understands how to read the stack trace below an error message to see the path through their code that led to the error.
 * Now ask students to show you the code block that is relevant to the error message. Use the following debugging strategies to see if you can figure out what's happening. If you can't from the given code block, then ask them to show you the whole code.
 * From reading the error message, can you tell what the correct expected behavior is and what the error is? Great.
-  - If you’re not clear on the error AND solution from the error from the limited snippet, ask the student to push their code with `learn save` and give you the link to their repo so you can pull down the whole thing.
+  - If you’re not clear on the error AND solution from the error from the limited snippet, ask the student to push their code with `learn save` and you can click on the fork icon in Expert Chat to go their repo ![Student Repo Link](https://s3.amazonaws.com/learn-experts/student-repo-link.png)
+  - Also, if you're on dispatch and it isn't immediately clear from the code and error messages where the problem is, this is a good time to ask the student: "Would now be a good time for a 20 minute screen share with a Technical Coach?" If they say yes, feel free to continue working with the student while they wait.
 * Make sure that you understand all the steps necessary to solve this. What are the inputs and the outputs that need to be defined. This might mean that in addition to the student's code, you will also need to read the Readme of the lab first and make sure that you know holistically what's expected.
 * Now break the problem of the lab into the smaller components necessary to solve it.
 
@@ -29,9 +31,9 @@ When you're working with student questions related to test errors, it's importan
 You've probably heard the phrase [Socratic Method](http://www.criticalthinking.org/pages/socratic-teaching/606) but why do we care so much about it? The focus of the Socratic Method is on asking questions and not on giving answers. By asking specific, guided questions we get students to think critically about their responses, connect pieces of information together, and, in the process, learn how to learn.
 
 Now that you know what the student’s bug is, help them figure out what the problem is without giving them the answer right away. Use questions that will get them to explain their process and in this way, they may realize themselves what their mistake was.
-  - As a rule of thumb, in the text chats that you have with a student, they should be “talking” at least 50% of the time.
+  - As a rule of thumb, in the text chats that you have with a student, they should be “talking” at least 50% of the time. In a screen share, they should be talking about 50% of the time.
 
-### Know when to start asking questions
+### Know where to start asking questions
 * Do they understand the error message? What is it saying? Make them explain the error message to you.
 * The student got an error message, but what did they _expect_ to happen?
 * If a student’s error message is tied specifically to a method then start your questions with that method.
@@ -50,5 +52,7 @@ Now that you know what the student’s bug is, help them figure out what the pro
     - For example, instead of saying “Your method requires two arguments,” say instead “Don’t you think the method should require two arguments?” This way, the student will have to think for, even just a few seconds about their problem.
 
 Using the Socratic Method will better teach students how to debug because it shows them what questions we ask ourselves when we solve the lab. In turn, this teaches students better debugging techniques so that they’ll have a better shot debugging their code on their own in the future.
+
+Make sure that the student is aware that your goal as a technical coach is to familiarize them with the sort of questions that you ask yourself when you're solving problems on your own. Remembering the sort of questions you ask them should help them improve their debugging skills.
 
 * However if the student’s error message is related to issues outside of the specific method and there might be larger conceptual issues, then you should start your questioning with those concepts.
