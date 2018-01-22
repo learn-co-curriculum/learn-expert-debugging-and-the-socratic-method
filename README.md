@@ -30,8 +30,12 @@ When you're working with student questions related to test errors, it's importan
 
 You've probably heard the phrase [Socratic Method](http://www.criticalthinking.org/pages/socratic-teaching/606) but why do we care so much about it? The focus of the Socratic Method is on asking questions and not on giving answers. By asking specific, guided questions we get students to think critically about their responses, connect pieces of information together, and, in the process, learn how to learn.
 
+**Video Example** [Learning with a student using the Socratic Method](https://youtu.be/MURwX6jUlRk)
+
 Now that you know what the student’s bug is, help them figure out what the problem is without giving them the answer right away. Use questions that will get them to explain their process and in this way, they may realize themselves what their mistake was.
   - As a rule of thumb, in the text chats that you have with a student, they should be “talking” at least 50% of the time. In a screen share, they should be talking about 50% of the time.
+
+**Video Example** [Technical Coach asking poking questions to student](https://youtu.be/aMZFyDrT0S4)
 
 ### Know where to start asking questions
 * Do they understand the error message? What is it saying? Make them explain the error message to you.
