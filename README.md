@@ -15,7 +15,7 @@ When you're working with student questions related to test errors, it's importan
 * Now ask students to show you the code block that is relevant to the error message. Use the following debugging strategies to see if you can figure out what's happening. If you can't from the given code block, then ask them to show you the whole code.
 * From reading the error message, can you tell what the correct expected behavior is and what the error is? Great.
   - If you’re not clear on the error AND solution from the error from the limited snippet, ask the student to push their code with `learn save` and you can click on the fork icon in Expert Chat to go their repo ![Student Repo Link](https://s3.amazonaws.com/learn-experts/student-repo-link.png)
-  - Also, if you're on dispatch and it isn't immediately clear from the code and error messages where the problem is, this is a good time to ask the student: "Would now be a good time for a 20 minute screen share with a Technical Coach?" If they say yes, feel free to continue working with the student while they wait.
+  - Also, if you're on dispatch and it isn't immediately clear from the code and error messages where the problem is, this is a good time to ask the student: "Would you like to pair program with a Technical Coach for 20 minutes?" If they say yes, feel free to continue working with the student while they wait.
 * Make sure that you understand all the steps necessary to solve this. What are the inputs and the outputs that need to be defined. This might mean that in addition to the student's code, you will also need to read the Readme of the lab first and make sure that you know holistically what's expected.
 * Now break the problem of the lab into the smaller components necessary to solve it.
 
@@ -33,7 +33,7 @@ You've probably heard the phrase [Socratic Method](http://www.criticalthinking.o
 **Video Example** [Learning with a student using the Socratic Method](https://youtu.be/MURwX6jUlRk)
 
 Now that you know what the student’s bug is, help them figure out what the problem is without giving them the answer right away. Use questions that will get them to explain their process and in this way, they may realize themselves what their mistake was.
-  - As a rule of thumb, in the text chats that you have with a student, they should be “talking” at least 50% of the time. In a screen share, they should be talking about 50% of the time.
+  - As a rule of thumb, in the text chats that you have with a student, they should be “talking” at least 50% of the time. In pair programming, they should be talking about 50% of the time.
 
 **Video Example** [Technical Coach asking poking questions to student](https://youtu.be/aMZFyDrT0S4)
 
@@ -59,4 +59,4 @@ Using the Socratic Method will better teach students how to debug because it sho
 
 Make sure that the student is aware that your goal as a technical coach is to familiarize them with the sort of questions that you ask yourself when you're solving problems on your own. Remembering the sort of questions you ask them should help them improve their debugging skills.
 
-* However if the student’s error message is related to issues outside of the specific method and there might be larger conceptual issues, then you should start your questioning with those concepts.
+* However if the student’s error message is related to issues outside of the specific method and there might be larger conceptual issues, then you should start your questioning with those concepts and if they don't understand the questions, go into teach mode and teach the concepts.
